@@ -1,0 +1,27 @@
+/* Estilos generales aplicados a toda la ventana raíz */
+.root {
+    -fx-background-color: #eaeaea;       /* Fondo gris claro para toda la escena */
+    -fx-font-family: "Segoe UI", Arial, sans-serif;  /* Fuente por defecto */
+}
+
+/* Estilo de los paneles (FlowPane) */
+.panel {
+    -fx-padding: 10;                     /* Relleno interno de 10px */
+    -fx-border-color: #0000cc;           /* Borde azul */
+    -fx-border-width: 2;                 /* Grosor del borde de 2px */
+    -fx-border-radius: 5;                /* Bordes redondeados de 5px */
+    -fx-background-color: #f9f9f9;       /* Fondo blanco-grisáceo */
+}
+
+/* Estilo para las etiquetas (Label) */
+.label {
+    -fx-font-weight: bold;               /*Texto en negrita */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #ddd;          /* Fondo gris claro */
+    -fx-border-radius: 3;                /* Bordes suavemente redondeados */
+
+
+}
